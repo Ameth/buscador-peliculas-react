@@ -1,0 +1,50 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+main {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  width: 100%;
+}
+
+main h2{
+  text-align: center;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  list-style: none;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.results img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.results h3 {
+  margin: 0;
+  text-align: center;
+}
+.results p {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0;
+  text-align: center;
+}
